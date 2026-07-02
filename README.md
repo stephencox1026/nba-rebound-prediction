@@ -2,6 +2,16 @@
 
 # NBA Rebound Prediction Model
 
+## Architecture
+
+```mermaid
+flowchart LR
+  data["NBA data (player + team stats)"] --> feat["Feature engineering: rolling avg, pace, matchup"]
+  feat --> models["Models: XGBoost / RF / Gradient Boosting"]
+  models --> ev["EV decision rule vs betting line"]
+  ev --> gui["GUI: color-coded value tiers"]
+```
+
 A comprehensive machine learning system for predicting NBA player rebounds and identifying value betting opportunities by comparing model predictions to gambling lines.
 
 ## Features
