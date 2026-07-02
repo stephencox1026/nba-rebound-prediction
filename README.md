@@ -1,3 +1,5 @@
+> **End-to-end ML system** that predicts NBA rebounds and flags positive-EV opportunities — the forecasting-plus-decision-rule pattern behind demand forecasting, churn, and dynamic pricing.
+
 # NBA Rebound Prediction Model
 
 A comprehensive machine learning system for predicting NBA player rebounds and identifying value betting opportunities by comparing model predictions to gambling lines.
